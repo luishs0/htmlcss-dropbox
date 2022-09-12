@@ -164,6 +164,91 @@
 
 /* /Cards */
 
+
+/* More */
+.more-container {
+    padding: 3em 0;
+}
+/* /More */
+
+
+/* Squares */
+.squares {
+    justify-content: space-between;
+
+    /* DEBUG */
+    height: 55vh;
+}
+
+.square {
+    width: calc(100% / 3);
+}
+
+.square1 {
+
+    /* DEBUG */
+    background-color: tomato;
+    flex-wrap: wrap;
+}
+
+.square2 {
+
+    /* DEBUG */
+    background-color: beige;
+    border: 1px solid black;
+}
+
+.square3 {
+
+    /* DEBUG */
+    background-color: aqua;
+    flex-wrap: wrap;
+}
+
+.second-square {
+    width: calc(100% / 2);
+
+    /* DEBUG */
+    border: 1px solid black;
+}
+
+/* DEBUG  */
+.square1-1, .square1-2, .square1-3, .square1-4 {
+    background-image: url(../img/university_of_florida.svg);
+    background-position: center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+
+.square3-1, .square3-2, .square3-3, .square3-4 {
+    background-image: url(../img/hearst_corp.svg);
+    background-position: center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+/* /DEBUG */
+/* /Squares */
+
+/* Cta */
+.cta-container {
+    padding: 3rem 0;
+    justify-content: space-between;
+}
+
+.cta-title {
+
+    /* DEBUG */
+    padding-left: 6rem;
+}
+
+.cta-cta {
+
+    /* DEBUG */
+    padding-right: 6rem;
+}
+
+/* /Cta */
+
 /* /MAIN */
 
 
