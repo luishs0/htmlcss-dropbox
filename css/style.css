@@ -80,18 +80,25 @@
 
 /* MAIN */
 
+/* Prices */
+.prices {
+    background-color: beige;
+    padding: 2rem 0;
+}
+
 .prices-cards-top {
     justify-content: space-between;
 }
 
 .prices-card {
-    width: calc(100% / 3 - 30px);
+    width: calc(100% / 3 - 40px);
     border: 1px solid grey;
+    align-items: stretch;
 
     /* DEBUG */
     height: 900px;
     background-color: darkgreen;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .prices-card-4 {
@@ -101,6 +108,61 @@
     background-color: darkgreen;
     height: 300px;
 }
+/* /Prices */
+
+/* Img-info */
+.img-info {
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+}
+
+.img {
+    width: 60%;
+}
+
+.img img {
+    width: 100%;
+}
+
+.text-img-info {
+    width: 40%;
+
+    /* DEBUG */
+    background-color: burlywood;
+}
+/* /Img-info */
+
+
+/* Cards */
+
+.cards {
+    padding: 1rem 0;
+
+    /* DEBUG */
+    background-color:chartreuse;
+}
+
+.cards-container {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.card {
+    width: calc(100% / 3 - 15px);
+    margin-bottom: 2rem;
+
+    /* DEBUG */
+    background-color: yellow;
+}
+
+.card-img img {
+    width: 100%;
+}
+
+/* /Cards */
 
 /* /MAIN */
 
