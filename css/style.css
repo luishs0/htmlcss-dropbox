@@ -246,12 +246,22 @@
     /* DEBUG */
     padding-right: 6rem;
 }
-
 /* /Cta */
 
+
+/* Faq */
+.faq {
+    background-color: burlywood;
+}
+
+.container-faq {
+    padding: 3rem 0;
+}
+/* /Faq */
 /* /MAIN */
 
 
 
 /* FOOTER */
+
 /* /FOOTER */
