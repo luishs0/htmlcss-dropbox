@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Utility */
+
+.flexbox {
+    display: flex;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+/* /Utility */
+
+/* HEADER */
+
+/* Main Header */
+.main-header {
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+
+    /* DEBUG */
+    background-color: red;
+}
+
+.header-left {
+
+
+    /* DEBUG */
+    width: 32%;
+    height: 90%;
+    margin: 1px;
+    background-color: aqua;
+}
+
+.header-right {
+
+
+    /* DEBUG */
+    width: 30%;
+    height: 90%;
+    margin: 1px;
+    background-color: aqua;
+}
+/* /Main Header */
+
+/* Banner */
+
+.banner {
+    width: 100%;
+    align-items: flex-end;
+    justify-content: center;
+
+    /* DEBUG */
+    height: 75vh;
+    background-color: blueviolet;
+}
+
+.banner-container {
+    width: 75%;
+
+    /* DEBUG */
+    height: 95%;
+    background-color: coral;
+}
+
+/* /Banner */
+
+/* /HEADER */
+
+
+
+/* MAIN */
+
+.prices-cards-top {
+    justify-content: space-between;
+}
+
+.prices-card {
+    width: calc(100% / 3 - 30px);
+    border: 1px solid grey;
+
+    /* DEBUG */
+    height: 900px;
+    background-color: darkgreen;
+    margin-bottom: 2rem;
+}
+
+.prices-card-4 {
+    width: 100%;
+
+    /* DEBUG */
+    background-color: darkgreen;
+    height: 300px;
+}
+
+/* /MAIN */
+
+
+
+/* FOOTER */
+/* /FOOTER */
