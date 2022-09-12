@@ -263,5 +263,25 @@
 
 
 /* FOOTER */
+footer {
+    background-color: black;
+    padding: 4rem;
+}
 
+.footer-up {
+    justify-content: space-between;
+}
+
+.col {
+    width: calc(100% / 5);
+
+    /* DEBUG */
+    background-color: aqua;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.footer-down {
+    color: white;
+}
 /* /FOOTER */
