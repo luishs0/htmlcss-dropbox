@@ -33,6 +33,7 @@ img {
 }
 
 
+
 /* /Utility */
 
 /* HEADER */
@@ -99,7 +100,7 @@ img {
 }
 
 .banner-container {
-    width: 70%;
+    width: 80%;
     flex-wrap: wrap;
     background-color: #b4d0e7;
 }
@@ -145,20 +146,12 @@ img {
 }
 
 .banner-btn2 {
-    margin-bottom: 2.5rem;
+    margin-bottom: 7rem;
 }
 
 .arrow-down {
     font-size: 2.5rem;
-
-
-    /* font-size: 2.5rem;
-    position: absolute;
-    bottom: 3px;
-    left: 3px;
-    padding: 0 4rem; */
 }
-
 
 /* /Banner */
 
@@ -170,8 +163,20 @@ img {
 
 /* Prices */
 .prices {
-    background-color: beige;
     padding: 2rem 0;
+}
+
+.prices .title-and-radio h2 {
+    font-size: 1.8rem;
+    padding: 3rem 0;
+}
+
+.title-and-radio input {
+    margin-bottom: 2.5rem;
+}
+
+.title-and-radio label {
+    margin-right: 1.5rem;
 }
 
 .prices-cards-top {
@@ -180,21 +185,102 @@ img {
 
 .prices-card {
     width: calc(100% / 3 - 40px);
+    min-width: 170px;
     border: 1px solid grey;
     align-items: stretch;
 
     /* DEBUG */
-    height: 900px;
-    background-color: darkgreen;
     margin-bottom: 3rem;
+    border: 1px solid black;
+}
+
+.prices-card-1-header, 
+.prices-card-2-header, 
+.prices-card-3-header, 
+.prices-card-4-header{
+    text-align: center;
+    width: 100%;
+    padding: .5rem;
+}
+
+.prices-card-1-main, 
+.prices-card-2-main, 
+.prices-card-3-main, 
+.prices-card-4-main {
+    padding: 1rem;
+}
+
+.card-title, .card-price {
+    margin-bottom: 1rem;
+}
+
+.card-ul {
+    margin-bottom: 4rem;
+}
+
+.card-time {
+    margin-bottom: 3rem;
+}
+
+.prices-card p {
+    color: gray;
+}
+
+.prices-btn a {
+    color: white;
+    background-color: #0161ff;
+    padding: .5rem 1rem;
+    display: block;
+    text-align: center;
+}
+
+.prices-btn {
+    margin-bottom: 3rem;
+}
+
+.card-ul li {
+    margin-bottom: 1rem;
+}
+
+.hr-card {
+    border-color: gray;
+}
+
+.hr-short {
+    width: 20%;
+    border-color: rgba(0, 0, 0, .25);
+    margin: 2rem 0;
 }
 
 .prices-card-4 {
     width: 100%;
 
     /* DEBUG */
-    background-color: darkgreen;
-    height: 300px;
+    border: 1px solid black;
+}
+
+.prices-card-4-main .text-card-4 {
+    width: 70%;
+}
+
+.prices-card-4-main .button-card-4 {
+    width: 30%;
+}
+
+.text-card-4 > .card-price {
+    margin-bottom: 5rem;
+    display: block;
+}
+
+.button-card-4 {
+    text-align: center;
+}
+
+.button-card-4 a {
+    color: white;
+    background-color: #0161ff;
+    padding: .4rem .8rem;
+    display: block;
 }
 /* /Prices */
 
