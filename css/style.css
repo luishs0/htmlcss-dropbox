@@ -163,7 +163,8 @@ img {
 
 /* Prices */
 .prices {
-    padding: 2rem 0;
+    padding: 4rem 0;
+    margin-bottom: 4.5rem;
 }
 
 .prices .title-and-radio h2 {
@@ -290,10 +291,11 @@ img {
     align-items: stretch;
     flex-wrap: wrap;
     padding: 2rem 0;
+    margin-bottom: 5rem;
 }
 
 .img {
-    width: 60%;
+    max-width: 60%;
 }
 
 .img img {
@@ -302,10 +304,15 @@ img {
 
 .text-img-info {
     width: 40%;
-
-    /* DEBUG */
-    background-color: burlywood;
+    padding: 4rem 2.8rem;
+    text-align: left;
 }
+
+.text-img-info h3, .text-img-info p {
+    margin-bottom: 1rem;
+}
+
+
 /* /Img-info */
 
 
