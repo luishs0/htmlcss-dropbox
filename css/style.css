@@ -59,6 +59,15 @@ img {
     max-width: 700px;
 }
 
+
+.header-left ul li:hover {
+    transform: scale(1.1);
+}
+
+.header-right ul li:hover:not(:last-child) {
+    transform: scale(1.1);
+}
+
 .header-left img {
     vertical-align: middle;
     max-width: 62%;
@@ -101,7 +110,8 @@ img {
 .banner-container {
     width: 80%;
     flex-wrap: wrap;
-    background-color: #b4d0e7;
+    position: relative;
+    top: 60px;
 }
 
 .banner-container .banner-title h1 {
@@ -140,12 +150,16 @@ img {
     margin-bottom: 1.5rem;
 }
 
+.banner-btnn {
+    display: inline-block;
+}
+
 .banner-btn2 a {
     color: black;
 }
 
 .banner-btn2 {
-    margin-bottom: 7rem;
+    margin-bottom: 2em;
 }
 
 .arrow-down {
@@ -295,6 +309,10 @@ img {
     background-color: #0161ff;
     padding: .4rem .8rem;
     display: block;
+}
+
+.cta-prices {
+    text-decoration: underline;
 }
 /* /Prices */
 
@@ -572,6 +590,10 @@ footer {
 
 .col h3 {
     padding-bottom: 1rem;
+}
+
+.hover-underline:hover {
+    text-decoration: underline;
 }
 
 .col ul {
