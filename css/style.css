@@ -219,9 +219,19 @@ img {
     margin-bottom: 4rem;
 }
 
+.prices-cards-top .prices-card ul li {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.prices-cards-top .prices-card ul li i {
+    margin-right: .5rem;
+}
+
 .card-time {
     margin-bottom: 3rem;
 }
+
 
 .prices-card p {
     color: gray;
@@ -245,6 +255,10 @@ img {
 
 .hr-card {
     border-color: gray;
+}
+
+.second-title-card {
+    margin-bottom: 1rem;
 }
 
 .hr-short {
