@@ -95,6 +95,7 @@ img {
     background-color: #0161ff;
     padding: .2rem .6rem;
 }
+
 /* /Main Header */
 
 /* Banner */
@@ -556,14 +557,29 @@ img {
 .domanda2, 
 .domanda3 {
     padding: 2rem 0;
-    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.chevron-down a {
-    color: black;
-    position: relative;
-    right: 50%;
+.domanda {
+    width: 80%;
+    margin-bottom: 2rem;
 }
+
+.chevron-down1, .chevron-down2, .chevron-down3 {
+    width: 20%;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.container-faq p {
+    width: 80%;
+    display: none;
+}
+
+
+
+
 /* /Faq */
 /* /MAIN */
 
@@ -653,4 +669,3 @@ footer {
 }
 
 /* /BUTTONS */
-
