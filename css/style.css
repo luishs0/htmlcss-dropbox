@@ -33,7 +33,6 @@ img {
 }
 
 
-
 /* /Utility */
 
 /* HEADER */
@@ -323,9 +322,15 @@ img {
 }
 
 .text-img-info h3, .text-img-info p {
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
+.btn-img {
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: .3rem .5rem;
+}
 
 /* /Img-info */
 
@@ -600,3 +605,30 @@ footer {
 .last-hr {
     border-color: white;
 }
+/* /FOOTER */
+
+
+
+
+/* BUTTONS */
+
+.btn:hover, .banner-btnn:hover {
+    background-color:rgba(1, 97, 255, 0.8);
+}
+
+.prices-btn:hover {
+    background-color:rgba(1, 97, 255, 0.6);
+}
+
+.btn-img:hover {
+    color: rgb(220,220,220);
+    border-color: rgb(220,220,220);
+}
+
+.cta-btn:hover {
+    color: rgb(150,150,150);
+    border-color: rgb(150,150,150);
+}
+
+/* /BUTTONS */
+
