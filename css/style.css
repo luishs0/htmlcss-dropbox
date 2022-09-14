@@ -59,13 +59,17 @@ img {
     max-width: 700px;
 }
 
+.header-left ul li {
+    line-height: 80px;
+}
+
 
 .header-left ul li:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .header-right ul li:hover:not(:last-child) {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .header-left img {
